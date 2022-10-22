@@ -69,19 +69,26 @@ body {
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
+.left {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
   background-color: #f1f1f1;
   padding: 20px;
 }
 
 /* Main column */
 .main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
   background-color: white;
   padding: 20px;
+}
+
+.right{
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  background-color: #f1f1f1;
+  padding: 20px;	
 }
 
 /* Fake image, just for this example */
